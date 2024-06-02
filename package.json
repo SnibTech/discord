@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "prepare": "npm run build",
+    "start": "node ./dist/index.js",
+    "build": "tsc -p . && tsc-alias"
+  },
+  "dependencies": {
+    "@google-cloud/compute": "^4.7.0",
+    "@typescript-eslint/parser": "^7.10.0",
+    "axios": "^1.4.0",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.4.5",
+    "tsc-alias": "^1.8.10"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "typescript": "^5.4.5"
+  }
+}
